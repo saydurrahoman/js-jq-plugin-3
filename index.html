@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery-4</title>
+
+    <!-- style.css linking here -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+ 
+  <section class="3d_stack">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text">
+            <h1>3d stack card slider with jquery and css</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-5">
+          <!-- slider start -->
+          <div id="slider" class="align-content-center m_top"> 
+            <div class="dp-wrap"> 
+              <div id="dp-slider">
+          
+                <div class="dp_item" data-class="1" data-position="1">
+                  <div class="dp-img">
+                    <img class="img-fluid" src="image/img-1.jpg" alt="investing">
+                  </div>
+                </div>
+          
+                <div class="dp_item" data-class="2" data-position="2">
+                  <div class="dp-img">
+                    <img class="img-fluid" src="image/img-2.jpg" alt="investing">
+                  </div>
+                </div>
+          
+                <div class="dp_item" data-class="3" data-position="3">
+                  <div class="dp-img">
+                    <img class="img-fluid" src="image/img-3.jpg" alt="investing">
+                  </div>
+                </div>
+          
+                <div class="dp_item" data-class="4" data-position="4">
+                  
+                  <div class="dp-img">
+                    <img class="img-fluid" src="image/img-4.jpg" alt="investing">
+                  </div>
+                </div>
+              </div>
+              
+              <span id="dp-next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: none;
+                        stroke: #002ba1;
+                        stroke-miterlimit: 10;
+                        stroke-width: 7px;
+                      }
+                    </style>
+                  </defs>
+                  <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)"/>
+                </svg>
+              </span>
+          
+              <span id="dp-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: none;
+                        stroke: #ffffff;
+                        stroke-miterlimit: 10;
+                        stroke-width: 7px;
+                      }
+                    </style>
+                  </defs>
+                  <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)"/>
+                </svg>
+              </span>
+          
+            </div>
+          </div>
+          <!-- slider end -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- js linking here -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- plugin start -->
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
